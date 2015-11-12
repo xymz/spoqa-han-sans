@@ -5,17 +5,6 @@
 @import 'bs-sass/assets/stylesheets/bootstrap';
   $screen-sm-min: 768px; //Bootstrap media variable
 
-@font-face {
-    font-family: 'Noto Sans Korean';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Noto Sans Medium'), local('NotoSans-Medium'),
-    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Medium-Hestia.eot),
-    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/eot/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
-    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Medium-Hestia.woff) format('woff'),
-    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/otf/NotoSansKR-Medium-Hestia.otf) format('opentype');
-}
-
 // Colors
 @import "colors";
   $primary-d2:  $mainblue-d2;
@@ -23,7 +12,6 @@
   $primary-0:   $mainblue-0;
   $primary-l1:  $mainblue-l1;
   $primary-color: $mainblue-0;//FIXME: Legacy for Bootstrap. Delete this line when remove bootstrap
-
 
 // Global requirements
 @import "variables";
