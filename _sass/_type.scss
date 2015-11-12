@@ -2,8 +2,23 @@
 // Spoqa Han Sans
 // ==========================================================================
 
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@font-face {
+  font-family: 'SpoqaHanSans';
+  src: url('/fonts/SpoqaHanSans-Thin.woff') format('woff');
+  font-weight: 100;
+}
 
+@font-face {
+  font-family: 'SpoqaHanSans';
+  src: url('/fonts/SpoqaHanSans-Regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'SpoqaHanSans';
+  src: url('/fonts/SpoqaHanSans-Bold.woff') format('woff');
+  font-weight: 700;
+}
 
 // Default Setting
 // --------------------------------------------------------------------------
